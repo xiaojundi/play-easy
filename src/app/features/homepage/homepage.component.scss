@@ -1,0 +1,18 @@
+.carousel-inner{
+    margin-bottom: 4%;
+    img{
+        max-width: 800px;
+        margin: auto;
+    }
+}
+.section2{
+    text-align: center;
+    .line-bot {
+        display: inline-block;
+        width: 160px;
+        height: 12px;
+        margin-top: 18px;
+        background: #53C936;
+        border-radius: 8px;
+    }
+}

@@ -1,0 +1,43 @@
+<nav class="navbar navbar-default default-background">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Play Easy</a>
+      </div>
+    <!-- <div class="navbar-header">
+      <a routerLink="/" class="navbar-brand">Play Easy</a>
+    </div> -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active"><a routerLink="/recipes">首页</a></li>
+        <li routerLinkActive="active"><a routerLink="/shopping-list">加入我们</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown" appDropdown>
+          <a 
+            href="#myModal" 
+            class="trigger-btn dropdown-toggle" 
+            data-toggle="modal" 
+            style="cursor: pointer;" 
+            role="button">
+              Login
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a style="cursor: pointer;">Save Data</a></li>
+            <li><a style="cursor: pointer;">Fetch Data</a></li>
+          </ul>
+        </li>
+      </ul>
+      <p class="navbar-text navbar-right">联系我们： 800-888-8888</p>
+    </div>
+  </div>
+</nav>
+
+
+
